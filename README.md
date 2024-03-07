@@ -12,3 +12,7 @@ poetry add fastapi
 ```bash
 poetry update fastapi
 ```
+
+```bash
+uvicorn main:app --reload
+```
