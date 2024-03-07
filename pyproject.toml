@@ -9,7 +9,8 @@ repository = "https://github.com/navaneethreddydevops/api-development.git"
 [tool.poetry.dependencies]
 python = "^3.9"
 requests = "^2.31.0"
-fastapi = "^0.110.0"
+fastapi = {extras = ["all"], version = "^0.110.0"}
+uvicorn = {extras = ["standard"], version = "^0.27.1"}
 
 [tool.poetry.dev-dependencies]
 
