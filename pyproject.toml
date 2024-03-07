@@ -3,6 +3,8 @@ name = "api-development"
 version = "0.1.0"
 description = ""
 authors = ["Navaneeth Reddy Alavala <navaneethreddydevops@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/navaneethreddydevops/api-development.git"
 
 [tool.poetry.dependencies]
 python = "^3.9"
