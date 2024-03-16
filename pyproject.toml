@@ -15,6 +15,7 @@ psycopg2-binary = "^2.9.9"
 SQLAlchemy = "1.4.23"
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+pydantic-settings = "^2.2.1"
 
 [tool.poetry.dev-dependencies]
 
