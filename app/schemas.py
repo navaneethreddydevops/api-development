@@ -33,7 +33,7 @@ class Post(PostBase):
     owner: UserOut
 
 
-class PostOut(PostBase):
+class PostOut(BaseModel):
     Post: Post
     votes: int
 
