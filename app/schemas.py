@@ -33,6 +33,11 @@ class Post(PostBase):
     owner: UserOut
 
 
+class PostOut(PostBase):
+    Post: Post
+    votes: int
+
+
 class UserCreate(BaseModel):
     email: EmailStr
     password: str
