@@ -8,7 +8,7 @@ repository = "https://github.com/navaneethreddydevops/api-development.git"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-requests = "^2.31.0"
+requests = "^2.32.3"
 fastapi = {extras = ["all"], version = "^0.110.0"}
 uvicorn = {extras = ["standard"], version = "^0.29.0"}
 psycopg2-binary = "^2.9.9"
